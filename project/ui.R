@@ -6,95 +6,79 @@ require(markdown)
 require(data.table)
 library(dplyr)
 library(DT)
+library(shinydashboard)
+library(timeDate)
+library(ggvis)
+library(stringr)
 
-shinyUI(
-    navbarPage("LEGO Set Visualizer", 
-    # multi-page user-interface that includes a navigation bar.
-        tabPanel("Explore the Data",
-             sidebarPanel(
-                sliderInput("timeline", 
-                            "Timeline:", 
-                            min = 1950,
-                            max = 2017,
-                            value = c(1997, 2015)),
-                sliderInput("pieces", 
-                            "Number of Pieces:",
-                            min = -1,
-                            max = 5922,
-                            value = c(271, 2448) 
-                ),
-                            #format = "####"),
-                actionButton(inputId = "clearAllTop", 
-                             label = "Clear selection", 
-                             icon = icon("square-o")),
-                actionButton(inputId = "selectAllTop",
-                             label = "Select all",
-                             icon = icon("check-square-o")),
-                uiOutput("themesControl"), # the id
-                actionButton(inputId = "clearAllBottom",
-                             label = "Clear selection",
-                             icon = icon("square-o")),
-                actionButton(inputId = "selectAllBottom",
-                             label = "Select all",
-                             icon = icon("check-square-o"))
-             ),
-             mainPanel(
-                 tabsetPanel(
-                   # Data 
-                   tabPanel(p(icon("table"), "Dataset"),
-                            dataTableOutput(outputId="dTable")
-                   ), # end of "Dataset" tab panel
-                   tabPanel(p(icon("line-chart"), "Visualize the Data"),
-                            h4('Number of Sets by Year', align = "center"),
-                            h5('Please hover over each point to see the Year and Total Number of Sets.', 
-                               align ="center"),
-                            showOutput("setsByYear", "nvd3"),
-                            h4('Number of Themes by Year', align = "center"),
-                            h5('Please hover over each bar to see the Year and Total Number of Themes.', 
-                               align ="center"),
-                            showOutput("themesByYear", "nvd3"),
-                            h4('Number of Pieces by Year', align = "center"),
-                            h5('Please hover over each point to see the Set Name, ID and Theme.', 
-                               align ="center"),
-                            showOutput("piecesByYear", "nvd3"),
-                            h4('Number of Average Pieces by Year', align = "center"),
-                            showOutput("piecesByYearAvg", "nvd3"),
-                            h4('Number of Average Pieces by Theme', align = "center"),
-                            showOutput("piecesByThemeAvg", "nvd3")
-                   ) # end of "Visualize the Data" tab panel
 
-                 )
-                   
-            )     
-        ), # end of "Explore Dataset" tab panel
-    
-        tabPanel(p(icon("search"), "LookUp on Brickset Website"),
-             mainPanel(
-                 h4("The page popped-up is the LEGO set database on Brickset.com."),
-                 h4("Step 1. Please type the Set ID below and press the 'Go!' button:"),
-                 textInput(inputId="setid", label = "Input Set ID"),
-                 #p('Output Set ID:'),
-                 #textOutput('setid'),
-                 actionButton("goButtonAdd", "Go!"),
-                 h5('Output Address:'),
-                 textOutput("address"),
-                 p(""),
-                 h4("Step 2. Please click the button below. 
-                    The link to the Set's page is being generated."),
-                 p(""),
-                 actionButton("goButtonDirect", "Generate Link Below!"),
-                 p(""),
-                 htmlOutput("inc"),
-                 p("I was supposed to show you in an iframe below. However, it only
-                   worked on localhost and has security issue after deployed to the cloud. Ooops...")
-                 
-             )         
-        ),
-        
-        tabPanel("About",
-                 mainPanel(
-                   includeMarkdown("about.md")
-                 )
-        ) # end of "About" tab panel
-    )  
-)
+# this is for ui and
+dashboardPage(
+  dashboardHeader(title = "Dict"),
+  dashboardSidebar(sidebarMenu(
+    menuItem("Competitor Analyze(Dev)", tabName = "competitor_analyze", icon = icon("line-chart")),
+    hr())),
+  dashboardBody(
+    tags$style(HTML("
+                    .box.box-solid.box-primary>.box-header {
+                    color:#fff;
+                    background:#666666
+                    }
+                    .box.box-solid.box-primary{
+                    border-bottom-color:#666666;
+                    border-left-color:#666666;
+                    border-right-color:#666666;
+                    border-top-color:#666666;
+                    border-center-color:#666666;
+                    }")),
+    tabItems(
+      tabItem(tabName = "competitor_analyze" 
+              , fluidPage(
+                tabPanel("Aspects to inspect",
+                                  sidebarPanel(
+                                    h4('Aspects to inspect', align = "center"),
+                                    box(width = 12, status = "primary", solidHeader = TRUE, uiOutput("productControl") 
+                                        ,actionButton(inputId = "selectAllProduct",label = "Select all",icon = icon("check-square-o"))
+                                        ,actionButton(inputId = "clearAllProduct",label = "Clear selection",icon = icon("square-o"))
+                                     ),
+                                    box(width = 12, status = "primary", solidHeader = TRUE, uiOutput("topNumControl")
+                                        ,actionButton(inputId = "selectAllTopNum",label = "Select all",icon = icon("check-square-o"))
+                                        ,actionButton(inputId = "clearAllTopNum",label = "Clear selection",icon = icon("square-o"))
+                                    ),
+                                    box(width = 12, status = "primary", solidHeader = TRUE, uiOutput("predictModeControl")
+                                        ,actionButton(inputId = "selectAllPredictMode",label = "Select all",icon = icon("check-square-o"))
+                                        ,actionButton(inputId = "clearAllPredictMode",label = "Clear selection",icon = icon("square-o"))
+                                    ),
+                                    box(width = 12, status = "primary", solidHeader = TRUE, uiOutput("testCaseControl")
+                                        ,actionButton(inputId = "selectAllTestCase",label = "Select all",icon = icon("check-square-o"))
+                                        ,actionButton(inputId = "clearAllTestCase",label = "Clear selection",icon = icon("square-o"))
+                                    ),
+                                    h4('CMCM presents', align = "center")
+                         ),
+                                  mainPanel(
+                                      tabsetPanel(
+                                        tabPanel(p(icon("table"), "Dataset"), dataTableOutput(outputId="dTable")
+                                        ), 
+                                        tabPanel(p(icon("line-chart"), "Visualize the Data"),
+                                                 h3('Ksr ratio by the mode you choose to Inspect', align = "center"),
+                                                 h5(HTML(paste("Illustration::", "TopNum : T1-- Top1  T3-- Top3"
+                                                               ,"PredictMode : MM-- MixMode  PO-- PredictOnly"
+                                                               , "TestCase: Tw-- Twitter Su-- Subtitle CM-- CM test"
+                                                               , sep="<br/>")), align = "center"),
+                                                 showOutput("toPlot", "nvd3")
+                                        ) # end of "Visualize the Data" tab panel
+                                      )
+                                 )
+                             ) # end of "Explore Dataset" tab panel
+              )
+      )
+    ),
+    singleton(
+      tags$head(tags$script('Shiny.addCustomMessageHandler("testmessage",
+                            function(message) {
+                            alert(message);
+                            }
+      );'))
+    )
+      )
+      )

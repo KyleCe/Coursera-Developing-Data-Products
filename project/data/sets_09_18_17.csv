@@ -180,7 +180,7 @@ set_num,name,year,theme_id,num_parts
 10197-1,Fire Brigade,2009,155,2236
 10198-1,Tantive IV,2009,169,1408
 10199-1,Winter Toy Shop,2009,227,815
-10-2,Universal Building Set,1976,469,129
+10-Feb,Universal Building Set,1976,469,129
 10200-1,Custom Car Garage,2008,397,893
 10201-1,Takutanuva,2003,347,3
 10202-1,Ultimate Dume (Limited Edition with Exclusive Mask Of Power),2004,347,6
@@ -243,7 +243,7 @@ set_num,name,year,theme_id,num_parts
 1029-1,Milk Delivery Truck - Tine,1999,75,90
 102A-1,Front-End Loader,1970,416,64
 102A-2,Front-End Loader,1970,416,56
-10-3,Locomotive Wheels,1977,456,8
+10-Mar,Locomotive Wheels,1977,456,8
 1030-1,TECHNIC I: Simple Machines Set,1985,1,189
 103-1,4.5V Motor Set with Rubber Tracks,1969,473,24
 1031-1,Building Cards - 1030,1983,532,20
@@ -527,7 +527,7 @@ set_num,name,year,theme_id,num_parts
 1097-1,Res-Q Runner,1999,92,18
 1098-1,Hang Glider,1998,87,19
 1099-1,Ninja Blaster,1999,434,24
-1-10,Mini-Wheel Model Maker No. 1,1971,423,88
+01-Oct,Mini-Wheel Model Maker No. 1,1971,423,88
 1100-1,Sky Pirates,2001,68,110
 110-1,Universal Building Set,1977,469,129
 1101-1,Replacement 4.5V Motor,1977,443,1
@@ -541,7 +541,7 @@ set_num,name,year,theme_id,num_parts
 1107-1,Signal and Direction-Change Switch,1977,456,4
 1108-1,Magnetic Couplings,1977,456,4
 1109-1,Magnetic Couplings for Railway Car,1977,456,4
-1-11,Basic Souvenir Box,1981,469,36
+01-Nov,Basic Souvenir Box,1981,469,36
 1110-1,Train Wheels,1977,456,8
 111-1,Universal Building Set,1977,469,173
 1111-1,Rubber Rims for Locomotive Wheels,1977,456,8
@@ -553,7 +553,7 @@ set_num,name,year,theme_id,num_parts
 1116-1,"Chain Links, Small",1977,443,25
 1118-1,"Boat Weight, Red",1977,443,1
 1119-1,Locomotive Piston Assemblies,1977,456,6
-11-2,Small Pre-School Basic Set,1973,433,31
+11-Feb,Small Pre-School Basic Set,1973,433,31
 1120-1,Tires (42 mm),1977,443,2
 112-1,Universal Building Set,1977,469,200
 1121-1,"Propellers, Wheels and Rotor Unit",1977,443,15
@@ -567,7 +567,7 @@ set_num,name,year,theme_id,num_parts
 1128-1,Santa on Skis,1997,227,21
 1129-1,Storage Cloth (Spread Bag),1980,473,1
 1129-2,Santa on Reindeer,1999,227,34
-11-3,Locomotive Traction Tires,1977,456,8
+11-Mar,Locomotive Traction Tires,1977,456,8
 1130-1,Storage Folder for Building Instructions (16 Internal Pockets),1980,443,1
 113-1,Universal Building Set,1977,469,293
 1131-1,Tires (42 mm) and Hubs,1981,453,4
@@ -663,7 +663,7 @@ set_num,name,year,theme_id,num_parts
 1207-1,"Turntables (4 x 4), Red",1982,443,2
 1208-1,"Inverted Slope Bricks, Assorted, Red",1982,443,16
 1209-1,Fences and Gates,1982,443,10
-12-1,Blue Space Elements,1981,452,8
+12-Jan,Blue Space Elements,1981,452,8
 1210-1,Winch Block and Hook Assembly,1982,443,3
 1210-2,Small Store Set,1955,372,30
 121-1,Roadster,1979,390,23
@@ -708,7 +708,7 @@ set_num,name,year,theme_id,num_parts
 1228-1,Differential Gear Housing,1982,453,28
 1228-2,4 x 8 Curved & 2 x 8 Plates,1956,371,5
 1229-1,TECHNIC Chainlinks,1982,453,70
-12-3,Wheel Bearings for Locomotives,1977,456,2
+12-Mar,Wheel Bearings for Locomotives,1977,456,2
 1230-1,TECHNIC Bulldozer Chainlinks,1982,453,54
 1230-2,Windows and Door without Glass,1955,371,7
 123-1,Passenger Coach,1969,235,98
@@ -832,7 +832,7 @@ set_num,name,year,theme_id,num_parts
 1307-1,VW Auto Showroom,1957,372,51
 1308-1,Fire Station,1957,372,109
 1309-1,Church,1957,372,150
-13-1,Gray Space Elements,1981,452,10
+13-Jan,Gray Space Elements,1981,452,10
 1310-1,ESSO Filling Station,1956,372,96
 131-1,Passenger Coach,1972,235,66
 1314-1,Stop bush / Small pulley,1987,1,210
@@ -841,7 +841,7 @@ set_num,name,year,theme_id,num_parts
 1317-1,TECHNIC Chainlinks,1987,1,350
 1318-1,Gears Small,1987,1,68
 1319-1,Gears Large,1987,1,22
-13-2,Large Pre-School Basic Set,1973,433,92
+13-Feb,Large Pre-School Basic Set,1973,433,92
 1320-1,Differential and Bevel Gears,1987,1,32
 132-1,Cottage,1979,390,115
 1321-1,Worm Gear and Racks,1987,1,22
@@ -854,7 +854,7 @@ set_num,name,year,theme_id,num_parts
 1327-1,Red/Black Plates,1985,524,48
 1328-1,Red/Black Plates,1985,524,32
 1329-1,Red/Black Plates,1985,525,28
-13-3,Train Motor Plate with Buffers,1977,456,5
+13-Mar,Train Motor Plate with Buffers,1977,456,5
 1330-1,Red/Black Plates,1985,525,20
 133-1,Locomotive (Push),1975,235,81
 1331-1,Red/Blue Bricks,1985,525,88
@@ -914,7 +914,7 @@ set_num,name,year,theme_id,num_parts
 139A-1,Electronic Control Unit (Forward - Stop),1969,243,13
 140-1,Town Hall,1979,390,135
 140-2,Bricks'n Motor Set,1969,469,96
-14-1,Space Mini Figures,1982,452,24
+14-Jan,Space Mini Figures,1982,452,24
 1411-1,Pirate's Treasure Hunt (Quaker Oats promo),2001,273,35
 1413-1,Rover,2001,135,29
 1414-1,Double Hover (Kabaya Promotional),2001,135,21
@@ -936,7 +936,7 @@ set_num,name,year,theme_id,num_parts
 1428-2,Small Soccer Set 1 (Polybag),2002,462,20
 1429-1,Small Soccer Set 2 (Kabaya Box),2002,462,19
 1429-2,Small Soccer Set 2 (Polybag),2002,462,19
-14-3,Small house set,1973,433,0
+14-Mar,Small house set,1973,433,0
 1430-1,Small Soccer Set 3 (Kabaya Box),2002,462,12
 1430-2,Small Soccer Set 3 (Polybag),2002,462,13
 1431-1,Tahnok Va (Kabaya Promotional),2002,329,27
@@ -946,7 +946,7 @@ set_num,name,year,theme_id,num_parts
 1435-1,Super Glider (Kabaya Promotional),2002,282,7
 1436-1,Ultralight Flyer (Kabaya Promotional),2002,282,16
 1437-1,Turbo Chopper (Kabaya Promotional),2002,282,13
-14-4,Train Motor Plate with Coupler,1977,456,1
+14-Apr,Train Motor Plate with Coupler,1977,456,1
 1441-1,Fikou (Tree-Spider),2003,324,13
 145-1,Building Set,1974,469,412
 146-1,Level Crossing,1976,235,68
@@ -983,7 +983,7 @@ set_num,name,year,theme_id,num_parts
 1506-1,Town Value Pack,1986,67,2
 1507-1,Space Value Pack,1986,130,2
 1509-1,Town Value Pack,1987,82,2
-15-1,Castle Mini Figures,1984,447,38
+15-Jan,Castle Mini Figures,1984,447,38
 1510-1,Space Value Pack,1987,130,2
 151-1,Curved Track,1966,243,25
 1512-1,Denken mit Lego (Thinking with Lego 250pcs),1972,517,250
@@ -995,7 +995,7 @@ set_num,name,year,theme_id,num_parts
 1516-1,Theater with Play-Scenes,1987,390,21
 1517-1,Race Car,1989,82,32
 1518-1,Race Car Repair,1989,82,79
-15-2,Large House Set,1973,433,157
+15-Feb,Large House Set,1973,433,157
 1520-1,Basic Set with Storage Case,1985,467,215
 1520-2,Town 2 for 1 Bonus Offer,1990,67,2
 152-1,Two Train Wagons,1966,235,22
@@ -1073,7 +1073,7 @@ set_num,name,year,theme_id,num_parts
 1607-1,Helicopter,1987,466,26
 1608-1,{Aeroplane},1987,466,24
 1609-1,Ship,1987,467,31
-16-1,Transparent Bricks,1988,443,32
+16-Jan,Transparent Bricks,1988,443,32
 1610-1,Police Car,1991,80,23
 1610-2,Martinair Cessna,1978,412,82
 161-1,Battery Wagon with Signal and Direction - Changing,1972,243,7
@@ -1150,7 +1150,7 @@ set_num,name,year,theme_id,num_parts
 1696-1,Pirate Lookout,1992,148,17
 1698-1,Basic Building Set Trial Size,1991,469,26
 1699-1,Small Bucket,1993,467,183
-1-7,Basic Set,1973,469,107
+01-Jul,Basic Set,1973,469,107
 170-1,Push Along Play Train,1972,235,87
 1701-1,Basic Building Set Trial Size,1994,467,26
 1702-1,Fire Fighter 4 x 4,1994,74,59
@@ -1226,7 +1226,7 @@ set_num,name,year,theme_id,num_parts
 1795-1,Imperial Cannon,1994,147,37
 1796-1,Freestyle Large Monster Bucket,1996,399,653
 1798-1,Building Table,1995,473,3
-1-8,Little House Set,1970,433,67
+01-Aug,Little House Set,1970,433,67
 180-1,Train with 5 Wagons and Circle of Track,1972,235,220
 1802-1,Tidy Treasure,1996,148,25
 1804-1,Crossbow Boat,1996,201,21
@@ -1312,7 +1312,7 @@ set_num,name,year,theme_id,num_parts
 1915-1,"LEGO Building Set D, Aircraft",1983,468,20
 1916-1,Starion Patrol,1993,140,23
 1917-1,King's Catapult,1993,188,22
-19-2,Locomotive Piston Assemblies,1977,456,6
+19-Feb,Locomotive Piston Assemblies,1977,456,6
 1920-1,Promo Basic Set,1982,469,119
 192-1,Policemen,1977,364,86
 1922-2,Basic Building Set,1983,469,60
@@ -1415,7 +1415,7 @@ set_num,name,year,theme_id,num_parts
 2009-2,Heart 2009,2009,232,92
 200A-1,LEGO Town Plan Wooden Board,1957,372,1
 200M-1,LEGO Town Plan Wooden Board,1957,372,1
-20-1,Universal Building Set,1976,469,217
+20-Jan,Universal Building Set,1976,469,217
 2010-1,Happy Holidays - The Christmas Game,2010,502,139
 2011-2,Lego Duck,2011,301,91
 20200-1,"MBA Level One - Kit 1, Space Designer",2011,432,177
@@ -1446,8 +1446,8 @@ set_num,name,year,theme_id,num_parts
 2070-1,Ring Me Rabbit,1987,504,3
 2075-1,Prop Plane,1999,470,14
 208-1,Mother with Baby Carriage,1978,364,46
-2-1,Extra Large Tires & Hubs,1982,1,4
-2-10,Mini-Wheel Model Maker No. 2,1971,423,63
+02-Jan,Extra Large Tires & Hubs,1982,1,4
+02-Oct,Mini-Wheel Model Maker No. 2,1971,423,63
 21000-1,Sears Tower,2008,252,69
 21000-2,Willis Tower,2011,252,69
 21001-1,John Hancock Center,2008,252,69
@@ -1488,7 +1488,7 @@ set_num,name,year,theme_id,num_parts
 21035-1,Solomon R. Guggenheim Museum,2017,252,744
 21036-1,Arc de Triomphe,2017,252,382
 21050-1,Architecture Studio,2013,252,1210
-2-11,Medium Basic LEGO Set,1976,433,130
+02-Nov,Medium Basic LEGO Set,1976,433,130
 21100-1,Shinkai 6500 Submarine,2011,576,412
 21101-1,Hayabusa,2012,576,364
 21102-1,Minecraft Micro World,2012,577,458
@@ -1534,7 +1534,7 @@ set_num,name,year,theme_id,num_parts
 2115-1,Bonezai,2011,435,21
 2116-1,Krazi,2011,435,22
 211701-1,Batman,2017,484,8
-21-2,Truck,1971,433,33
+21-Feb,Truck,1971,433,33
 21200-1,Life of George,2011,301,144
 21201-1,Life of George II,2012,301,144
 21204-1,Town Master,2014,590,256
@@ -1641,7 +1641,7 @@ set_num,name,year,theme_id,num_parts
 2194-1,Nitroblast,2011,403,57
 2199-1,Large Bulk Bucket,1997,469,466
 220-1,2 x 2 Bricks,1958,371,120
-22-1,Car,1971,433,47
+22-Jan,Car,1971,433,47
 221-1,Idea Book #1,1973,497,0
 221-2,1 x 2 Bricks,1958,371,156
 222-1,Building Ideas Book,1976,501,0
@@ -1702,7 +1702,7 @@ set_num,name,year,theme_id,num_parts
 230-1,Hairdressing Salon,1978,405,227
 230-2,Six Trees and Bushes,1958,371,6
 2304-1,Large Building Plate,1992,504,1
-23-1,Delivery Truck Set,1971,433,64
+23-Jan,Delivery Truck Set,1971,433,64
 231-1,Hospital,1978,405,400
 231-2,Esso Pumps/Sign,1956,371,2
 2312-1,Duplo Supplementary Bricks,1987,505,39
@@ -1729,7 +1729,7 @@ set_num,name,year,theme_id,num_parts
 239-2,Das große Lego-Buch Idea Book,1968,497,0
 240-1,"Wooden Storage Box Large, Empty",1967,383,-1
 240-2,Idea Book,1967,497,0
-24-1,Minitalia Train,1971,433,77
+24-Jan,Minitalia Train,1971,433,77
 241-1,4.5v Idea Book,1969,497,0
 241601-1,Miku the dragon,2016,600,12
 241602-1,Jynx cat,2016,600,26
@@ -1801,7 +1801,7 @@ set_num,name,year,theme_id,num_parts
 266-1,Child's Bedroom,1974,405,147
 268-1,Family Room,1979,405,251
 269-1,Kitchen,1979,405,210
-2-7,Basic Set,1973,469,139
+02-Jul,Basic Set,1973,469,139
 270-2,"Grandfather Clock, Chair and Table",1973,405,46
 2707-1,Glider,2000,468,9
 2708-1,Aircraft,2000,468,12
@@ -1812,7 +1812,7 @@ set_num,name,year,theme_id,num_parts
 271605-1,Lava fighter,2016,605,12
 2718-1,Aircraft and Ground Crew,2001,68,143
 2719-1,Heli Monster,1999,470,9
-27-2,Train Contact Bricks,1977,456,2
+27-Feb,Train Contact Bricks,1977,456,2
 272-1,Dressing Table with Mirror,1973,405,31
 2722-1,Ship,2000,468,12
 2728-1,The Chopper,1999,470,11
@@ -1833,10 +1833,10 @@ set_num,name,year,theme_id,num_parts
 2774-1,Airshow (Red Tiger),1999,68,141
 2775-1,Bathroom,1991,504,7
 278-1,Television Room,1978,405,107
-2-8,Medium House Set,1970,433,109
+02-Aug,Medium House Set,1970,433,109
 280-1,"Sloping Roof Bricks, Red",1958,371,14
 280-2,"Sloping Roof Bricks, Blue",1958,371,14
-28-1,Train Contact Plate with Cables,1977,456,2
+28-Jan,Train Contact Plate with Cables,1977,456,2
 281-1,"1 x 2 and 3 x 2 Sloping Bricks, Red",1959,371,21
 281-2,"1 x 2 and 3 x 2 Sloping Bricks, Blue",1959,371,21
 282-1,"2 x 2 Sloping Roof Bricks, Red",1958,371,22
@@ -1941,7 +1941,7 @@ set_num,name,year,theme_id,num_parts
 2891-1,Wizard Trader,1998,186,18
 2892-1,Thunder Arrow Boat,1998,201,21
 290-2,Dining Suite,1973,405,113
-29-1,4.5V Motor,1977,453,1
+29-Jan,4.5V Motor,1977,453,1
 291-1,Blackboard and School Desk,1973,405,88
 2912-1,Radical Racer,2000,504,16
 292-1,Kitchen Sink and Cupboards,1973,405,51
@@ -2044,7 +2044,7 @@ set_num,name,year,theme_id,num_parts
 30088-1,Rattla,2012,435,5
 30090-1,Desert Glider,2011,437,29
 30091-1,Desert Rover,2011,437,31
-30-1,Universal Building Set,1976,469,200
+30-Jan,Universal Building Set,1976,469,200
 30100-1,Andrea on the Beach,2012,494,28
 30101-1,Skate Boarder,2012,494,28
 30102-1,Desk,2012,494,28
@@ -2560,7 +2560,7 @@ set_num,name,year,theme_id,num_parts
 3389-1,Skateboarder Bill Chupa Chups Promotional,2003,460,7
 3390-1,Basketball Street Player Chupa Chups Promotional,2003,459,5
 3391-1,"Dash, Mission Deep Sea, Chupa Chups Promotional",2003,305,9
-3-4,Basic Set,1973,469,191
+03-Apr,Basic Set,1973,469,191
 340-1,Basic Building Set,1985,467,220
 3401-1,Shoot 'n' Score - without ZIDANE / Adidas Minifig,2000,462,24
 3401-2,Shoot 'n' Score - with ZIDANE / Adidas Minifig,2000,462,24
@@ -2754,7 +2754,7 @@ set_num,name,year,theme_id,num_parts
 3594-1,Bob's Workshop,2009,504,14
 3598-1,XXL 2000 Canister,2005,37,2000
 3599-1,XXL 250 Canister,2005,505,250
-3-6,Medium House Set,1970,433,158
+03-Jun,Medium House Set,1970,433,158
 3600-1,Build Your Own House Tub,2005,37,1201
 360-1,Gravel Quarry,1974,416,211
 3601-1,Elton Elephant,1981,390,7
@@ -2918,7 +2918,7 @@ set_num,name,year,theme_id,num_parts
 3796-1,Small Bakery,1986,390,31
 3797-1,Fire Chief Barty Bulldog,1987,395,9
 3798-1,Hanna's Garden,1988,390,25
-3-8,Mini-Wheel Model Maker No. 3,1971,423,65
+03-Aug,Mini-Wheel Model Maker No. 3,1971,423,65
 3800-1,Ultimate Builders Set,2001,260,322
 380-1,Village Set,1971,413,7
 3801-1,Ultimate Accessories,2000,260,45
@@ -3983,7 +3983,7 @@ set_num,name,year,theme_id,num_parts
 4297-1,Lightning Streak,2002,113,19
 4298-1,Blue Power,2002,113,22
 4299-1,Nesquik Quicky Racer,2002,113,17
-4-3,Basic Set,1973,469,234
+04-Mar,Basic Set,1973,469,234
 4300-1,Green Racer,2003,113,21
 430-1,Biplane,1975,412,18
 4301-1,Blue Racer,2003,113,24
@@ -4018,7 +4018,7 @@ set_num,name,year,theme_id,num_parts
 435-1,Tipper Truck,1976,416,23
 435-2,Garage Plate and Door (The Building Toy),1966,371,3
 437-1,50 numbered bricks (The Building Toy),1966,371,50
-4-4,Large House Set,1970,433,218
+04-Apr,Large House Set,1970,433,218
 44000-1,Furno XL,2013,401,103
 4400-1,Creations and Bricks {Red Tub},2003,37,705
 44001-1,Pyrox,2013,403,50
@@ -5244,7 +5244,7 @@ set_num,name,year,theme_id,num_parts
 5293-1,9V Battery Box,1996,453,1
 5294-1,"Toggle Joints & Connectors / Pegs, Bushings, & Couplers",1998,453,60
 5295-1,Racks & Pivots,1998,453,12
-5-3,Basic Set,1973,469,330
+05-Mar,Basic Set,1973,469,330
 5300-1,Electric Train Motor,1991,456,3
 530-1,Basic Building Set,1985,467,273
 5301-1,Wagon Plate 6 x 28,1992,456,1
@@ -5311,7 +5311,7 @@ set_num,name,year,theme_id,num_parts
 5397-1,Magnets and Magnet Holders,1996,443,12
 5398-1,Decorated Elements,1996,443,43
 5399-1,Fairy Tale Accessories,1999,446,29
-5-4,Large House Set,1971,433,307
+05-Apr,Large House Set,1971,433,307
 5400-1,Bathroom Accessories,1997,451,13
 540-1,Basic Building Set,1985,467,619
 5401-1,Kitchen Accessories,1997,451,14
@@ -6171,7 +6171,7 @@ set_num,name,year,theme_id,num_parts
 6299-7,Advent Calendar 2009 Pirates (Day  6) - Crocodile,2009,224,3
 6299-8,Advent Calendar 2009 Pirates (Day  7) - Pirate Female,2009,224,5
 6299-9,Advent Calendar 2009 Pirates (Day  8) - Raft with Flagpole,2009,224,8
-6-3,Basic Set,1973,469,338
+06-Mar,Basic Set,1973,469,338
 630-1,Brick Separator,1996,443,1
 6301-1,Town Mini-Figures,1986,84,34
 6302-1,Mini-Figure Set,1982,84,31
@@ -6281,7 +6281,7 @@ set_num,name,year,theme_id,num_parts
 6397-1,Gas N' Wash Express,1992,76,473
 6398-1,Central Precinct HQ,1993,80,633
 6399-1,Airport Shuttle,1990,68,787
-6-4,4.5V Battery Train Wagon,1977,456,2
+06-Apr,4.5V Battery Train Wagon,1977,456,2
 6400-1,Go-Kart,1997,82,23
 640-1,Fire Truck,1971,417,45
 6401-1,Seaside Cabana,1992,90,45
@@ -7904,7 +7904,7 @@ set_num,name,year,theme_id,num_parts
 7197-1,Venice Canal Chase,2009,266,420
 7198-1,Fighter Plane Attack,2009,266,383
 7199-1,Temple of Doom,2009,268,652
-7-2,Universal Building Set,1979,469,64
+07-Feb,Universal Building Set,1979,469,64
 7200-1,Final Duel I,2002,169,32
 720-1,Basic Building Set,1985,467,339
 7201-1,Final Duel II,2002,169,26
@@ -8002,7 +8002,7 @@ set_num,name,year,theme_id,num_parts
 7296-1,Dino 4WD Trapper,2005,384,282
 7297-1,Dino Track Transport,2005,384,351
 7298-1,Dino Air Tracker,2005,384,710
-7-3,Basic Set,1973,469,412
+07-Mar,Basic Set,1973,469,412
 7300-1,Double Hover,2001,135,21
 730-1,Steam Shovel with Carrier,1973,416,102
 7301-1,Rover,2001,135,29
@@ -9383,7 +9383,7 @@ set_num,name,year,theme_id,num_parts
 8197-1,Highway Chaos,2010,120,142
 8198-1,Ramp Crash,2010,120,145
 8199-1,Security Smash,2010,120,135
-8-2,Universal Building Set,1979,469,93
+08-Feb,Universal Building Set,1979,469,93
 8200-1,Radiator Springs Lightning McQueen,2011,269,35
 820-1,Red Plates Parts Pack,1980,473,34
 8201-1,Radiator Springs Classic Mater,2011,269,52
@@ -9479,7 +9479,7 @@ set_num,name,year,theme_id,num_parts
 8296-1,Dune Buggy,2008,11,199
 8297-1,Off-Roader,2008,11,1096
 8299-1,Search Sub With CDROM,1997,10,371
-8-3,Basic Set,1973,469,665
+08-Mar,Basic Set,1973,469,665
 8300-1,LEGO TECHNIC Team,2000,19,6
 830-1,Red Bricks Parts Pack,1980,473,46
 8301-1,Urban Enforcer,2011,120,44
@@ -9530,7 +9530,7 @@ set_num,name,year,theme_id,num_parts
 8397-1,Pirate Survival,2009,153,16
 8398-1,BBQ Stand,2009,50,22
 8399-1,K-9 Bot,2009,141,22
-8-4,Magnetic Train Couplers with Plates,1977,456,4
+08-Apr,Magnetic Train Couplers with Plates,1977,456,4
 8400-1,Space Speeder,2009,141,14
 840-1,"Baseplate, Green",1980,473,1
 8401-1,City Minifigure Collection,2009,62,59
@@ -10602,7 +10602,7 @@ set_num,name,year,theme_id,num_parts
 9093-1,Bone Cruncher,2012,112,86
 9094-1,Star Striker,2012,112,88
 9095-1,Nitro Predator,2012,112,86
-9-1,Universal Building Set,1978,469,116
+09-Jan,Universal Building Set,1978,469,116
 910-1,Universal Building Set,1976,469,318
 911-1,Universal Building Set,1976,469,401
 911506-1,Null Set-Use SW911506-1,2015,301,1
@@ -10626,7 +10626,7 @@ set_num,name,year,theme_id,num_parts
 918-white-2,21 White 2x4 Bricks,1969,371,21
 918-yellow-2,21 Yellow 2x4 Bricks,1969,371,21
 919-1,"31 bricks with 2, 4 and 6 studs",1969,371,186
-9-2,Trees & Flowers,1981,455,18
+09-Feb,Trees & Flowers,1981,455,18
 920-2,Alpha-1 Rocket Base,1979,130,187
 9209-1,Community Services Set,2012,507,130
 9213-1,Dinosaurs Set,2007,504,95
@@ -10657,7 +10657,7 @@ set_num,name,year,theme_id,num_parts
 9286-1,Large Building Plates,1998,528,4
 9287-1,Bonus Lego Basic Town,1996,534,2472
 9293-1,Community Workers,1996,533,80
-9-3,Magnetic Train Couplers,1977,456,4
+09-Mar,Magnetic Train Couplers,1977,456,4
 930-1,Red Bricks,1973,473,45
 9301-1,Road Signs,1999,533,172
 9302-1,Creator Community Builders,2004,514,1690
